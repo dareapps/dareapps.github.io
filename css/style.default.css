@@ -325,8 +325,9 @@ INTRO
 }
 @media (min-width: 1200px) {
   .text-intro {
-    background-image: -webkit-linear-gradient(left, #001922,#708D81);
-    background-image: linear-gradient(to right, #001922,#708D81);
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#001922), to(#708D81))
+	-webkit-linear-gradient(left top, right bottom, color-stop(#001922 20%),color-stop(#708D81 80%));
+    background-image: linear-gradient(to right, #001922 20%,#708D81 80%);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff7473', endColorstr='#ff46426f', GradientType=1);
   }
@@ -1896,7 +1897,7 @@ p.social a.instagram {
 }
 p.social a.email {
   background-color: #4a7f45;
-  border-color: #4a7f45;
+  border-color: #4a7f45;	
 }
 p.social a.link {
   background-color: #871AFF;
