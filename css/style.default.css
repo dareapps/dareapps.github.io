@@ -325,13 +325,12 @@ INTRO
 }
 @media (min-width: 1200px) {
   .text-intro {
-    background-color: #001922;
-    background-image: linear-gradient(to right, #001922, #708D81);
+    background-image: -webkit-gradient(linear,0% 0%, 100% 0%, from(#001922), to(#708D81));
   }
 }
 @media (max-width: 1199px) {
   .text-intro {
-    background: #001922f;
+    background: #001922;
   }
 }
 /*
