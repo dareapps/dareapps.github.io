@@ -325,7 +325,17 @@ INTRO
 }
 @media (min-width: 1200px) {
   .text-intro {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0,25,34, 0.8)), to(rgba(112,141,129, 0.8)));
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.5);
+    background: -moz-linear-gradient(top,  rgba(0,25,34, 0.8) 0%,rgba(112,141,129, 0.8) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,25,34,0.8)), color-stop(100%,rgba(112,141,129, 0.8))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,25,34, 0.8) 0%,rgba(112,141,129, 0.8) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,25,34, 0.8) 0%,rgba(112,141,129, 0.8) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,25,34, 0.8) 0%,rgba(112,141,129, 0.8) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0,25,34, 0.8) 0%,rgba(112,141,129, 0.8) 100%); /* W3C */
     background-repeat: repeat-x;
   }
 }
