@@ -1098,10 +1098,6 @@ STYLE SWITCHER FOR DEMO
   }
 }
 .navbar-brand {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  margin:0 auto;
   float: left;
   padding: 10px 15px;
   font-size: 20px;
