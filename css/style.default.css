@@ -326,6 +326,8 @@ INTRO
 @media (min-width: 1200px) {
   .text-intro {
     background-image: -webkit-gradient(linear,0% 0%, 100% 0%, from(#001922), to(#708D81));
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff7473', endColorstr='#ff46426f', GradientType=1);
   }
 }
 @media (max-width: 1199px) {
