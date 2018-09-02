@@ -325,7 +325,7 @@ INTRO
 }
 @media (min-width: 1200px) {
   .text-intro {
-    background-image: -webkit-gradient(linear, left top, right bottom, from(#001922), to(#708D81));
+    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0,25,34)), to(rgba(121,141,129)));
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff7473', endColorstr='#ff46426f', GradientType=1);
   }
